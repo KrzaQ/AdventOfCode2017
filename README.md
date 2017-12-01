@@ -5,9 +5,9 @@ I'm using various languages to provide solutions.
 
 | Day | Name                                           | D    | Haskell | Python | Ruby | Shakespeare |
 |:---:|:-----------------------------------------------|:----:|:-------:|:------:|:----:|:-----------:|
-| 01  | Inverse Captcha                                |      |         |        |      |             |
+| 01  | [Inverse Captcha][day01]                       |      |         |        | [:heavy_check_mark:](./day01/main.rb)      |             |
 
-[day1]: https://adventofcode.com/2017/day/1
+[day01]: https://adventofcode.com/2017/day/1
 
 [kq]: https://dev.krzaq.cc
 
