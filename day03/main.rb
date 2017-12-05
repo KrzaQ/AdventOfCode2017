@@ -18,6 +18,7 @@ def get_sum(h,x,y)
         h.fetch(x  ,{}).fetch(y+1,0) + 
         h.fetch(x+1,{}).fetch(y+1,0)
 
+p r
     raise r.to_s if r > P1DATA
     r
 end
