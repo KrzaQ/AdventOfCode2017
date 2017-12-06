@@ -12,8 +12,8 @@ def solve(data, &blk)
     count
 end
 
-P1 = solve(DATA.clone){ |n| n += 1 }
-P2 = solve(DATA.clone){ |n| n += n > 2 ? -1 : 1 }
+P1 = solve(DATA.clone){ |n| n + 1 }
+P2 = solve(DATA.clone){ |n| n + (n > 2 ? -1 : 1) }
 
 puts "Part 1: %s" % P1
 puts "Part 2: %s" % P2
