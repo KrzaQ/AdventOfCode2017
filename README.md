@@ -12,6 +12,7 @@ I'm using various languages to provide solutions.
 | 05  | [Maze of Twisty Trampolines, All Alike][day05] |      |         |        | [:heavy_check_mark:](./day05/main.rb)      |             |
 | 06  | [Memory Reallocation][day06]                   |      |         |        | [:heavy_check_mark:](./day06/main.rb)      |             |
 | 07  | [Recursive Circus][day07]                      |      |         |        | [:heavy_check_mark:](./day07/main.rb)      |             |
+| 08  | [I Heard You Like Registers][day08]            |      |         |        | [:heavy_check_mark:](./day08/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
@@ -20,6 +21,7 @@ I'm using various languages to provide solutions.
 [day05]: https://adventofcode.com/2017/day/5
 [day06]: https://adventofcode.com/2017/day/6
 [day07]: https://adventofcode.com/2017/day/7
+[day08]: https://adventofcode.com/2017/day/8
 
 [kq]: https://dev.krzaq.cc
 
