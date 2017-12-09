@@ -1,6 +1,17 @@
+require 'citrus'
+
 DATA = File.read('data.txt').each_line.map(&:strip).to_a
+# DATA = File.read('data.txt').each_line.map(&:strip).to_a
 
+# Parser =
+ p Citrus.load 'grammar'
 
+x = Dupa.parse DATA[2]
+p x
+
+# parsed
+
+exit
 # class Graph
 
 
