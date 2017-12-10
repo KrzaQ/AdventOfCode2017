@@ -26,10 +26,19 @@ P1 = DATA
     .take(2)
     .inject(:*)
 
-P2 = (DATA
+class Object
+    def make_one_object_array
+        [self]
+    end
+end
+
+P2 = DATA
     .each_codepoint
     .to_a
-    .insert(-1, 17, 31, 73, 47, 23) * 64)
+    .insert(-1, 17, 31, 73, 47, 23)
+    .make_one_object_array
+    .map{ |a| a * 64 }
+    .first
     .each_with_index
     .inject([(0...KNOTS).to_a * 2, 0]) { |data, el| do_round data, el }
     .first
