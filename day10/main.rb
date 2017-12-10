@@ -44,8 +44,7 @@ P2 = DATA
     .first
     .take(KNOTS)
     .each_slice(16)
-    .map{ |s| s.inject(:^).to_s(16) }
-    .map{ |s| s.size < 2 ? '0%s' % s : s }
+    .map{ |s| '%02x' % s.inject(:^) }
     .join
 
 puts "Part 1: %s" % P1
