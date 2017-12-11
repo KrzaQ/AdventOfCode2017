@@ -15,6 +15,7 @@ I'm using various languages to provide solutions.
 | 08  | [I Heard You Like Registers][day08]            |      |         |        | [:heavy_check_mark:](./day08/main.rb)      |             |
 | 09  | [Stream Processing][day09]                     |      |         |        | [:heavy_check_mark:](./day09/main.rb)      |             |
 | 10  | [Knot Hash][day10]                             |      |         |        | [:heavy_check_mark:](./day10/main.rb)      |             |
+| 11  | [Hex Ed][day11]                                |      |         |        | [:heavy_check_mark:](./day11/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
@@ -26,6 +27,7 @@ I'm using various languages to provide solutions.
 [day08]: https://adventofcode.com/2017/day/8
 [day09]: https://adventofcode.com/2017/day/9
 [day10]: https://adventofcode.com/2017/day/10
+[day11]: https://adventofcode.com/2017/day/11
 
 [kq]: https://dev.krzaq.cc
 
