@@ -13,10 +13,9 @@ def connected_to_n(n)
     connected = [n].to_set
     while to_check.size > 0
         el = to_check.first
-        to_check.delete el
-        next if connected.include? el
         to_check |= DATA[el].to_set
         connected.add el
+        to_check -= connected
     end
     connected
 end
