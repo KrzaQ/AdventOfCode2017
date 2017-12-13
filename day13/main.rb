@@ -4,22 +4,17 @@ DATA = File.read('data.txt')
     .map{ |line| line.split(': ').map(&:to_i) }
     .to_h
 
-def count_catch_severity(delay, bail_early = false)
-    DATA.inject([0, false]) do |state, el|
-        index, depth = el
-        count, caught = state
-        if (index+delay) % (2*(depth-1)) == 0
-            count += index * depth
-            caught = true
-            return [ -1, true ] if bail_early
-        end
-        [ count, caught ]
-    end
+def period_of(n)
+    2 * (n - 1)
 end
 
-P1 = count_catch_severity(0).first
-P2 = (0..Float::INFINITY)
-    .find{ |n| count_catch_severity(n, true).last == false }
+P1 = DATA
+    .select{ |k, v| k % period_of(v) == 0 }
+    .map{ |k, v| k * v }
+    .sum
+
+P2 = (1..Float::INFINITY)
+    .find{ |n| DATA.all?{ |k, v| (k+n) % period_of(v) > 0 } }
 
 puts "Part 1: %s" % P1
 puts "Part 2: %s" % P2
