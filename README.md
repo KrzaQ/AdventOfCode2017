@@ -17,6 +17,7 @@ I'm using various languages to provide solutions.
 | 10  | [Knot Hash][day10]                             |      |         |        | [:heavy_check_mark:](./day10/main.rb)      |             |
 | 11  | [Hex Ed][day11]                                |      |         |        | [:heavy_check_mark:](./day11/main.rb)      |             |
 | 12  | [Digital Plumber][day12]                       |      |         |        | [:heavy_check_mark:](./day12/main.rb)      |             |
+| 13  | [Packet Scanners][day13]                       |      |         |        | [:heavy_check_mark:](./day13/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
@@ -30,6 +31,7 @@ I'm using various languages to provide solutions.
 [day10]: https://adventofcode.com/2017/day/10
 [day11]: https://adventofcode.com/2017/day/11
 [day12]: https://adventofcode.com/2017/day/12
+[day13]: https://adventofcode.com/2017/day/13
 
 [kq]: https://dev.krzaq.cc
 
