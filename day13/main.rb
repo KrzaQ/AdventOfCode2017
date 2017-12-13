@@ -1,5 +1,3 @@
-require 'set'
-
 DATA = File.read('data.txt')
     .each_line
     .map(&:strip)
