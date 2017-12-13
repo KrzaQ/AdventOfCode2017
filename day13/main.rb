@@ -7,20 +7,20 @@ DATA = File.read('data.txt')
     .to_h
 
 def count_catch_severity(delay)
-    DATA.inject(0) do |c, el|
+    DATA.inject([0, false]) do |state, el|
         index, depth = el
+        count, caught = state
         if (index+delay) % (2*(depth-1)) == 0
-            c += index * depth
+            count += index * depth
+            caught = true
         end
-        c
+        [ count, caught ]
     end
 end
 
-P1 = count_catch_severity 0
+P1 = count_catch_severity(0).first
 P2 = (0..Float::INFINITY)
-    .lazy
-    .reject{ |n| DATA.fetch(0, 0) > 0 ? n % (2*(DATA[0]-1)) == 0 : false }
-    .find{ |n| count_catch_severity(n) == 0 }
+    .find{ |n| count_catch_severity(n).last == false }
 
 puts "Part 1: %s" % P1
 puts "Part 2: %s" % P2
