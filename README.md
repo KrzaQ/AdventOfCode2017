@@ -18,6 +18,7 @@ I'm using various languages to provide solutions.
 | 11  | [Hex Ed][day11]                                |      |         |        | [:heavy_check_mark:](./day11/main.rb)      |             |
 | 12  | [Digital Plumber][day12]                       |      |         |        | [:heavy_check_mark:](./day12/main.rb)      |             |
 | 13  | [Packet Scanners][day13]                       |      |         |        | [:heavy_check_mark:](./day13/main.rb)      |             |
+| 14  | [Disk Defragmentation][day14]                  |      |         |        | [:heavy_check_mark:](./day14/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
@@ -32,6 +33,7 @@ I'm using various languages to provide solutions.
 [day11]: https://adventofcode.com/2017/day/11
 [day12]: https://adventofcode.com/2017/day/12
 [day13]: https://adventofcode.com/2017/day/13
+[day14]: https://adventofcode.com/2017/dayday14
 
 [kq]: https://dev.krzaq.cc
 
