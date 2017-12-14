@@ -74,7 +74,14 @@ end
 
 P2 = count_groups(
         HASHED
-        .map{ |h| h.to_i(16).to_s(2).split('').map(&:to_i) }
+        .map do |h|
+            h
+                .to_i(16)
+                .to_s(2)
+                .yield_self{ |s| '%0128d' % s.to_i }
+                .split('')
+                .map(&:to_i)
+        end
     )
 
 puts "Part 1: %s" % P1
