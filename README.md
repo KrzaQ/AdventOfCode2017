@@ -19,7 +19,7 @@ I'm using various languages to provide solutions.
 | 12  | [Digital Plumber][day12]                       |      |         |        | [:heavy_check_mark:](./day12/main.rb)      |             |
 | 13  | [Packet Scanners][day13]                       |      |         |        | [:heavy_check_mark:](./day13/main.rb)      |             |
 | 14  | [Disk Defragmentation][day14]                  |      |         |        | [:heavy_check_mark:](./day14/main.rb)      |             |
-| 15  | [Dueling Generators][day15]                    |      |         |        | [:heavy_check_mark:](./day15/main.rb)      |             |
+| 15  | [Dueling Generators][day15]                    |      |         | [:heavy_check_mark:](./day15/main.cpp) | [:heavy_check_mark:](./day15/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
