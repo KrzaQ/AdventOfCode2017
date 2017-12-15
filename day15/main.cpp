@@ -18,7 +18,7 @@ auto make_generator(T&& initializer, U&& divisible_by = 1)
     value = next(value);
     
     return [=] () mutable {
-        return std::exchange(value, next(value));
+        return std::exchange(value, next(value)) & 0xFFFF;
     };
 }
 
@@ -29,7 +29,7 @@ int main()
         auto bs = make_generator(B);
         int count{};
         for(int i = 0; i < 40'000'000; ++i)
-            if((as() & 0xFFFF) == (bs() & 0xFFFF))
+            if(as() == bs())
                 ++count;
         std::cout << "Part 1: " << count << '\n';
     }
@@ -38,7 +38,7 @@ int main()
         auto bs = make_generator(B,8);
         int count{};
         for(int i = 0; i < 5'000'000; ++i)
-            if((as() & 0xFFFF) == (bs() & 0xFFFF))
+            if(as() == bs())
                 ++count;
         std::cout << "Part 2: " << count << '\n';
     }
