@@ -22,6 +22,7 @@ I'm using various languages to provide solutions.
 | 15  | [Dueling Generators][day15]                    |      |         | [:heavy_check_mark:](./day15/main.cpp) | [:heavy_check_mark:](./day15/main.rb)      |             |
 | 16  | [Permutation Promenade][day16]                 |      |         |        | [:heavy_check_mark:](./day16/main.rb)      |             |
 | 17  | [Spinlock][day17]                              |      |         |        | [:heavy_check_mark:](./day17/main.rb)      |             |
+| 18  | [Duet][day18]                                  |      |         |        | [:heavy_check_mark:](./day18/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
@@ -40,6 +41,7 @@ I'm using various languages to provide solutions.
 [day15]: https://adventofcode.com/2017/day/15
 [day16]: https://adventofcode.com/2017/day/16
 [day17]: https://adventofcode.com/2017/day/17
+[day18]: https://adventofcode.com/2017/day/18
 
 [kq]: https://dev.krzaq.cc
 
