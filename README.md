@@ -23,6 +23,7 @@ I'm using various languages to provide solutions.
 | 16  | [Permutation Promenade][day16]                 |      |         |        | [:heavy_check_mark:](./day16/main.rb)      |             |
 | 17  | [Spinlock][day17]                              |      |         |        | [:heavy_check_mark:](./day17/main.rb)      |             |
 | 18  | [Duet][day18]                                  |      |         |        | [:heavy_check_mark:](./day18/main.rb)      |             |
+| 19  | [A Series of Tubes][day19]                     |      |         |        | [:heavy_check_mark:](./day19/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
@@ -42,6 +43,7 @@ I'm using various languages to provide solutions.
 [day16]: https://adventofcode.com/2017/day/16
 [day17]: https://adventofcode.com/2017/day/17
 [day18]: https://adventofcode.com/2017/day/18
+[day19]: https://adventofcode.com/2017/day/19
 
 [kq]: https://dev.krzaq.cc
 
