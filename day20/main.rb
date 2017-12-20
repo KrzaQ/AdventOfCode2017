@@ -1,6 +1,7 @@
 DATA = File.read('data.txt')
-    .scan(/p=<(-?\d+),(-?\d+),(-?\d+)>, v=<(-?\d+),(-?\d+),(-?\d+)>, a=<(-?\d+),(-?\d+),(-?\d+)>/)
-    .map{ |a| a.map(&:to_i) }
+    .scan(/-?\d+/)
+    .map(&:to_i)
+    .each_slice(9)
 
 P1 = DATA
     .each_with_index
