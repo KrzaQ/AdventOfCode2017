@@ -26,6 +26,7 @@ I'm using various languages to provide solutions.
 | 19  | [A Series of Tubes][day19]                     |      |         |        | [:heavy_check_mark:](./day19/main.rb)      |             |
 | 20  | [Particle Swarm][day20]                        |      |         |        | [:heavy_check_mark:](./day20/main.rb)      |             |
 | 21  | [Fractal Art][day21]                           |      |         |        | [:heavy_check_mark:](./day21/main.rb)      |             |
+| 22  | [Sporifica Virus][day22]                       |      |         |        | [:heavy_check_mark:](./day22/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
@@ -48,6 +49,7 @@ I'm using various languages to provide solutions.
 [day19]: https://adventofcode.com/2017/day/19
 [day20]: https://adventofcode.com/2017/day/20
 [day21]: https://adventofcode.com/2017/day/21
+[day22]: https://adventofcode.com/2017/day/22
 
 [kq]: https://dev.krzaq.cc
 
