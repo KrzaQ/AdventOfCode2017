@@ -28,6 +28,7 @@ I'm using various languages to provide solutions.
 | 21  | [Fractal Art][day21]                           |      |        | [:heavy_check_mark:](./day21/main.rb)      |             |
 | 22  | [Sporifica Virus][day22]                       |      |        | [:heavy_check_mark:](./day22/main.rb)      |             |
 | 23  | [Coprocessor Conflagration][day23]             |      |        | [:heavy_check_mark:](./day23/main.rb)      |             |
+| 24  | [Electromagnetic Moat][day24]                  |      |        | [:heavy_check_mark:](./day24/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
@@ -52,6 +53,7 @@ I'm using various languages to provide solutions.
 [day21]: https://adventofcode.com/2017/day/21
 [day22]: https://adventofcode.com/2017/day/22
 [day23]: https://adventofcode.com/2017/day/23
+[day24]: https://adventofcode.com/2017/day/24
 
 [kq]: https://dev.krzaq.cc
 
