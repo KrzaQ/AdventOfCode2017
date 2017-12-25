@@ -29,6 +29,7 @@ I'm using various languages to provide solutions.
 | 22  | [Sporifica Virus][day22]                       |      |        | [:heavy_check_mark:](./day22/main.rb)      |             |
 | 23  | [Coprocessor Conflagration][day23]             |      |        | [:heavy_check_mark:](./day23/main.rb)      |             |
 | 24  | [Electromagnetic Moat][day24]                  |      |        | [:heavy_check_mark:](./day24/main.rb)      |             |
+| 25  | [The Halting Problem][day25]                   |      |        | [:heavy_check_mark:](./day25/main.rb)      |             |
 
 [day01]: https://adventofcode.com/2017/day/1
 [day02]: https://adventofcode.com/2017/day/2
@@ -54,6 +55,7 @@ I'm using various languages to provide solutions.
 [day22]: https://adventofcode.com/2017/day/22
 [day23]: https://adventofcode.com/2017/day/23
 [day24]: https://adventofcode.com/2017/day/24
+[day25]: https://adventofcode.com/2017/day/25
 
 [kq]: https://dev.krzaq.cc
 
