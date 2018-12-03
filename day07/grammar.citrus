@@ -1,0 +1,38 @@
+grammar Dupa
+
+    rule dupa
+        (name space weight children){
+            {
+                name: capture(:name).value,
+                weight: capture(:weight).value,
+                children: capture(:children).value
+            }
+        }
+    end
+
+    rule name
+        [a-zA-Z]+
+    end
+
+    rule weight
+        #'(' [0-9]+ ')'
+        ('(' [0-9]+ ')'){
+            to_str.scan(/\d+/).first.to_i
+        }
+    end
+
+    rule children
+        (space .*){
+            to_str.len ? to_str.split(", ").to_a : []
+        }
+    end
+
+    rule space
+        [ \t]+
+    end
+
+    rule whatever
+        .*
+    end
+
+end
